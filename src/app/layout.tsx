@@ -1,7 +1,13 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
+import { Poppins } from "next/font/google";
 
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: "400",
+});
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,7 +22,7 @@ type LayoutProps = {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} ${poppins.variable}`}>
         <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
       </body>
     </html>
