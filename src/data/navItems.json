@@ -8,11 +8,11 @@
     "link": "/#about"
   },
   {
-    "name": "MISSION",
-    "link": "/#mission"
-  },
-  {
     "name": "EVENTS",
     "link": "/#events"
+  },
+  {
+    "name": "BOARD",
+    "link": "/#board"
   }
 ]

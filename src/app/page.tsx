@@ -9,12 +9,12 @@ const Home = () => {
         About
       </section>
 
-      <section id="mission" className="h-screen pt-[15vh]">
-        Mission
-      </section>
-
       <section id="events" className="h-screen pt-[15vh]">
         Events
+      </section>
+
+      <section id="board" className="h-screen pt-[15vh]">
+        Board
       </section>
     </div>
   );
