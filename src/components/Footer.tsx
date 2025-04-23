@@ -7,12 +7,12 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="fixed right-0 bottom-0 left-0 p-4">
+    <footer className="fixed right-0 bottom-0 left-0 p-4 bg-amber-50 border-2">
       <div className="flex justify-between items-center">
         <Image
           src={LogoIcon}
           alt="Logo"
-          className="w-5 h-5"
+          className="w-6.5 h-6"
         />
 
         <div className="flex space-x-6">
