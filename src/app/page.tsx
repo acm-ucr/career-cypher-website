@@ -1,7 +1,21 @@
 const Home = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Hello World
+    <div className="h-screen w-screen items-center justify-center">
+      <section id="landing" className="h-screen pt-[15vh]">
+        Landing
+      </section>
+
+      <section id="about" className="h-screen pt-[15vh]">
+        About
+      </section>
+
+      <section id="events" className="h-screen pt-[15vh]">
+        Events
+      </section>
+
+      <section id="board" className="h-screen pt-[15vh]">
+        Board
+      </section>
     </div>
   );
 };
