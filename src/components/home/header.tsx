@@ -3,7 +3,7 @@ import Logo from "@/public/resources/Logo.svg";
 
 const Header = () => {
   return (
-    <div className="font-poppins mt-14 flex w-full flex-col items-center justify-center gap-3 text-lg">
+    <div className="font-poppins flex w-full flex-col items-center justify-center gap-3 text-lg">
       <Image
         src={Logo}
         alt={"Career Cipher Logo"}
