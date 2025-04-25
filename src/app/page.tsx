@@ -1,8 +1,10 @@
+import Header from "@/components/home/header";
+
 const Home = () => {
   return (
     <div className="h-screen w-screen items-center justify-center">
       <section id="landing" className="h-screen pt-[15vh]">
-        Landing
+        <Header />
       </section>
 
       <section id="about" className="h-screen pt-[15vh]">
