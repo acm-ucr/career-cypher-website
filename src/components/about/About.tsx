@@ -23,10 +23,6 @@ const About = () => {
         next generation of engineers and developers for the challenges ahead.
       </p>
     </div>
-
-    //     <p className="text-center">
-    //     e problem-sovling skills are honed through rigorous practice.
-    //   </p>
   );
 };
 
