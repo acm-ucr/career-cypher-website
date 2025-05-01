@@ -1,5 +1,6 @@
 import Header from "@/components/home/header";
 import About from "@/components/about/About";
+import AboutHeader from "@/components/about/about-header";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       </section>
 
       <section id="about" className="h-screen pt-[15vh]">
+        <AboutHeader />
         <About />
       </section>
 
