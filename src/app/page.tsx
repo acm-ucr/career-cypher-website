@@ -1,4 +1,5 @@
 import Header from "@/components/home/header";
+import About from "@/components/about/About";
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
       </section>
 
       <section id="about" className="h-screen pt-[15vh]">
-        About
+        <About />
       </section>
 
       <section id="events" className="h-screen pt-[15vh]">
