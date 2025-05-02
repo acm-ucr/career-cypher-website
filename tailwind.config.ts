@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
+    fontFamily: {
+      poppins: ["var(--font-poppins)"],
+    },
     extend: {
       colors: {
         cypher: {

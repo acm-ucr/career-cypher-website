@@ -1,9 +1,15 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
 import Footer from "@/components/Footer";
+import Navigation from "@/components/Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: "400",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -22,6 +28,9 @@ export default function RootLayout({ children }: LayoutProps) {
           {children}
           <Footer />
         </ReactQueryClientProvider>
+      <body className={`${inter.className} ${poppins.variable}`}>
+        <Navigation />
+        <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
       </body>
     </html>
   );
