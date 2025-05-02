@@ -7,13 +7,9 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="fixed right-0 bottom-0 left-0 p-4 bg-amber-50 border-2">
-      <div className="flex justify-between items-center">
-        <Image
-          src={LogoIcon}
-          alt="Logo"
-          className="w-6.5 h-6"
-        />
+    <footer className="fixed right-0 bottom-0 left-0 border-t-1 bg-amber-50 p-4">
+      <div className="flex items-center justify-between">
+        <Image src={LogoIcon} alt="Logo" className="h-6 w-6.5" />
 
         <div className="flex space-x-6">
           {footerLinks.map((item, index) => (
