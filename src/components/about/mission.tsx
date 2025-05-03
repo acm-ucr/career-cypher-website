@@ -1,7 +1,7 @@
 const Mission = () => {
   return (
-    <div className="font-poppins flex h-2/3 w-2/3 flex-col items-center justify-center gap-2 gap-11 text-center sm:w-1/2">
-      <div className="rounded-md border border-black bg-gradient-to-b from-blue-100 to-white px-4 py-2 text-black transition-all hover:bg-black sm:px-12 sm:text-xl">
+    <div className="font-poppins flex h-2/3 w-2/3 flex-col items-center justify-center gap-11 text-center md:w-1/2">
+      <div className="rounded-md border border-black bg-gradient-to-b from-blue-100 to-white px-4 py-2 text-base text-black transition-all hover:bg-black md:px-12 md:text-xl">
         OUR MISSION & VISION STATEMENT
       </div>
 
