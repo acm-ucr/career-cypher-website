@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="font-poppins mx-auto w-4xl justify-self-center text-center text-xl">
+    <div className="font-poppins mx-auto w-4xl justify-self-center text-center text-3xl">
       <p className="pb-10">
         Established in 2023, Career Ciphers is a community dedicated to solving
         complex coding challenges on platforms like CodeForces and LeetCode,
