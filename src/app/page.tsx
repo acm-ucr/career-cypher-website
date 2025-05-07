@@ -1,6 +1,7 @@
 import Header from "@/components/home/header";
 import AboutHeader from "@/components/about/about-header";
 import Mission from "@/components/about/mission";
+import Board from "@/components/board/board";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
       </section>
 
       <section id="board" className="h-screen pt-[15vh]">
-        Board
+        <Board />
       </section>
     </div>
   );
