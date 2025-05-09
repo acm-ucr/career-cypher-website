@@ -1,12 +1,9 @@
 import Header from "@/components/home/header";
 import About from "@/components/about/About";
 import AboutHeader from "@/components/about/about-header";
-<<<<<<< HEAD
 import HomeSupportingTxt from "@/components/home/Home";
-=======
 import Mission from "@/components/about/mission";
 import Board from "@/components/board/board";
->>>>>>> 791bb8c55084ce7a07b36cb62f16ef026283dd5b
 
 const Home = () => {
   return (
