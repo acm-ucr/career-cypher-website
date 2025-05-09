@@ -1,8 +1,8 @@
-import Noah from "@/public/board/Noah.png";
-import Jerry from "@/public/board/Jerry.png";
-import Jonathon from "@/public/board/Jonathon.png";
-import Samyak from "@/public/board/Samyak.png";
-import Cristian from "@/public/board/Cristian.png";
+import Noah from "@/public/board/Noah.webp";
+import Jerry from "@/public/board/Jerry.webp";
+import Jonathon from "@/public/board/Jonathon.webp";
+import Samyak from "@/public/board/Samyak.webp";
+import Cristian from "@/public/board/Cristian.webp";
 
 export default [
   {
