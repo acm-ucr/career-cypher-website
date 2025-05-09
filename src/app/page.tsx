@@ -1,6 +1,7 @@
 import Header from "@/components/home/header";
 import About from "@/components/about/About";
 import AboutHeader from "@/components/about/about-header";
+import HomeSupportingTxt from "@/components/home/Home";
 import Mission from "@/components/about/mission";
 import Board from "@/components/board/board";
 
@@ -9,6 +10,7 @@ const Home = () => {
     <div className="w-screen items-center justify-center">
       <section id="landing" className="h-screen pt-[15vh]">
         <Header />
+        <HomeSupportingTxt />
       </section>
 
       <section
