@@ -1,4 +1,5 @@
 import Header from "@/components/home/header";
+import About from "@/components/about/About";
 import AboutHeader from "@/components/about/about-header";
 import Mission from "@/components/about/mission";
 import Board from "@/components/board/board";
@@ -15,6 +16,7 @@ const Home = () => {
         className="flex h-screen flex-col items-center justify-center pt-[15vh]"
       >
         <AboutHeader />
+        <About />
         <Mission />
       </section>
 
