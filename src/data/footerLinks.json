@@ -1,0 +1,17 @@
+[
+  {
+    "text": "Instagram",
+    "link": "#",
+    "icon": "FaInstagram"
+  },
+  {
+    "text": "Discord",
+    "link": "#",
+    "icon": "FaDiscord"
+  },
+  {
+    "text": "Email",
+    "link": "#",
+    "icon": "MdOutlineMail"
+  }
+]
