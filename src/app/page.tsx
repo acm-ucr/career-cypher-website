@@ -1,6 +1,7 @@
 import Header from "@/components/home/header";
 import About from "@/components/about/About";
 import AboutHeader from "@/components/about/about-header";
+import BoardHeader from "@/components/board/board-header";
 import HomeSupportingTxt from "@/components/home/Home";
 import Mission from "@/components/about/mission";
 import Board from "@/components/board/board";
@@ -27,6 +28,7 @@ const Home = () => {
       </section>
 
       <section id="board" className="h-screen pt-[15vh]">
+        <BoardHeader />
         <Board />
       </section>
     </div>
