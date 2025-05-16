@@ -1,6 +1,7 @@
 import Header from "@/components/home/header";
 import AboutHeader from "@/components/about/about-header";
 import Mission from "@/components/about/mission";
+import WeeklyCalendar from "@/components/events/WeeklyCalendar";
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
       </section>
 
       <section id="events" className="h-screen pt-[15vh]">
-        Events
+        <WeeklyCalendar />
       </section>
 
       <section id="board" className="h-screen pt-[15vh]">
