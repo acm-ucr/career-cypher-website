@@ -5,7 +5,7 @@ const Mission = () => {
         OUR MISSION & VISION STATEMENT
       </div>
 
-      <div>
+      <div className="">
         Our mission is to provide a structured and competitive environment where
         individuals can master coding challenges, refine their problem-solving
         skills, and gain hands-on experience through mock interviews with
