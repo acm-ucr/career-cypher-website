@@ -3,8 +3,8 @@ import About from "@/components/about/About";
 import AboutHeader from "@/components/about/about-header";
 import HomeSupportingTxt from "@/components/home/Home";
 import Mission from "@/components/about/mission";
-import Board from "@/components/board/board";
 import HowToJoin from "@/components/about/HowToJoin";
+import Board from "@/components/board/board";
 
 const Home = () => {
   return (
