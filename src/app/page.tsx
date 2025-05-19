@@ -4,6 +4,7 @@ import AboutHeader from "@/components/about/about-header";
 import HomeSupportingTxt from "@/components/home/Home";
 import Mission from "@/components/about/mission";
 import Board from "@/components/board/board";
+import HowToJoin from "@/components/about/HowToJoin";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <AboutHeader />
         <About />
         <Mission />
+        <HowToJoin />
       </section>
 
       <section id="events" className="h-screen pt-[15vh]">
