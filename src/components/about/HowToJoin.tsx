@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HowImage from "@/public/image.jpg";
+import HowImage from "@/public/image.webp";
 
 const HowToJoin = () => {
   return (
