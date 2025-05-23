@@ -1,5 +1,5 @@
 import React from "react";
-import footerLinks from "@/data/footerLinks.json";
+import { footerLinks } from "@/data/footerLinks";
 import { FaInstagram, FaDiscord } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import LogoIcon from "@/public/LogoIcon.webp";
@@ -11,12 +11,12 @@ const Footer = () => {
       <div className="flex items-center justify-between">
         <Image src={LogoIcon} alt="Logo" className="h-6 w-6.5" />
 
-        <div className="flex space-x-6">
+        <div className="flex space-x-5">
           {footerLinks.map((item, index) => (
-            <a key={index} href={item.link}>
-              {item.text === "Instagram" && <FaInstagram className="text-lg" />}
-              {item.text === "Discord" && <FaDiscord className="text-lg" />}
-              {item.text === "Email" && <MdOutlineMail className="text-lg" />}
+            <a key={index} href={item.link} target="_blank">
+              {item.text === "Instagram" && <FaInstagram className="text-xl" />}
+              {item.text === "Discord" && <FaDiscord className="text-xl" />}
+              {item.text === "Email" && <MdOutlineMail className="text-xl" />}
             </a>
           ))}
         </div>
