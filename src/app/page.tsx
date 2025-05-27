@@ -4,6 +4,7 @@ import AboutHeader from "@/components/about/about-header";
 import BoardHeader from "@/components/board/board-header";
 import HomeSupportingTxt from "@/components/home/Home";
 import Mission from "@/components/about/mission";
+import HowToJoin from "@/components/about/HowToJoin";
 import Board from "@/components/board/board";
 import Partners from "@/components/about/partners";
 
@@ -22,6 +23,7 @@ const Home = () => {
         <AboutHeader />
         <About />
         <Mission />
+        <HowToJoin />
         <Partners />
       </section>
 
