@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navigation = () => {
   return (
-    <div className="fixed flex w-screen justify-center border-b-1 border-black bg-amber-50 py-[1%]">
+    <div className="fixed z-10 flex w-screen justify-center border-b-1 border-black bg-amber-50 py-[1%]">
       {navItems.map((navItem, index) => (
         <Link
           key={index}
