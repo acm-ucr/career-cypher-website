@@ -26,7 +26,6 @@ const Home = () => {
         <Partners />
       </section>
 
-
       <section id="events" className="h-screen pt-[15vh]">
         <WeeklyCalendar />
       </section>
