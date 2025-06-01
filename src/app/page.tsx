@@ -7,12 +7,14 @@ import WeeklyCalendar from "@/components/events/WeeklyCalendar";
 import HowToJoin from "@/components/about/HowToJoin";
 import Board from "@/components/board/board";
 import Partners from "@/components/about/partners";
+import ClubDescription from "@/components/home/club-description";
 
 const Home = () => {
   return (
     <div className="flex max-w-screen flex-col items-center justify-center overflow-hidden">
       <section id="landing" className="min-h-screen pt-[15vh]">
         <Header />
+        <ClubDescription />
         <HomeSupportingTxt />
       </section>
 
