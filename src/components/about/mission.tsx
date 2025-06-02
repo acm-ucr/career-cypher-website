@@ -5,7 +5,7 @@ const Mission = () => {
         OUR MISSION & VISION STATEMENT
       </div>
 
-      <div className="pb-10">
+      <div className="max-w-[65%] pb-10">
         Our mission is to provide a structured and competitive environment where
         individuals can master coding challenges, refine their problem-solving
         skills, and gain hands-on experience through mock interviews with
